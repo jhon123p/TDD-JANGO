@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'TDD_DJANGO',
+    'TDD_TEMPLAT',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['TDD_TEMPLAT/template/TDD_TEMPLAT'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

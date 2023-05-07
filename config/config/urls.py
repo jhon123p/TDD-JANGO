@@ -20,5 +20,5 @@ from TDD_TEMPLAT import views #importa config do projeto de vizu....
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/',views.tdd , name='tdd')
+    path('test/',views.myview , name='myview')
 ]
